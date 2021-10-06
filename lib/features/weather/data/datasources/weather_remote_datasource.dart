@@ -1,8 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:meta/meta.dart';
 import 'package:eagle_weather_v2/features/weather/data/models/weather_model.dart';
-import 'package:flutter/material.dart';
 
 abstract class WeatherRemoteDataSource {
 
